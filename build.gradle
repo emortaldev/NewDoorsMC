@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'dev.emortal'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.hollow-cube.Minestom:Minestom:e6d4a2cc91'
+
+    // Schematic pasting library
+    implementation 'com.github.hollow-cube.common:schem:935bb279e6'
+}
