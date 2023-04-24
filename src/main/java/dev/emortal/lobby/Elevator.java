@@ -1,19 +1,15 @@
-package dev.emortal;
+package dev.emortal.lobby;
 
+import dev.emortal.utils.Area;
 import net.kyori.adventure.audience.Audience;
 import net.kyori.adventure.sound.Sound;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.minestom.server.coordinate.Point;
-import net.minestom.server.coordinate.Pos;
-import net.minestom.server.coordinate.Vec;
 import net.minestom.server.entity.Player;
 import net.minestom.server.instance.Instance;
 import net.minestom.server.sound.SoundEvent;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 
@@ -49,7 +45,7 @@ public class Elevator {
 
         this.hologram = new HologramEntity(getHologramName(0));
         this.hologram.setInstance(instance, hologramPosition);
-        
+
         // TODO: Timers
     }
 

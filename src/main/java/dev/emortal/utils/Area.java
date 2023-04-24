@@ -1,4 +1,4 @@
-package dev.emortal;
+package dev.emortal.utils;
 
 import net.minestom.server.coordinate.Point;
 

@@ -1,4 +1,4 @@
-package dev.emortal;
+package dev.emortal.lobby;
 
 import net.kyori.adventure.text.Component;
 import net.minestom.server.entity.Entity;
